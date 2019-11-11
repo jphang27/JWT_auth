@@ -12,7 +12,7 @@ function App()
     <div className="App">
       <header className="App-header">
         <Router>
-          <Link to="/">Home</Link>
+          <Link to="/">JWT Auth Test Page</Link>
           <Switch>
             <Route path="/">
               <Register />
@@ -56,7 +56,7 @@ function User()
 {
   return (
     <div>
-      <label>Username</label>
+      <label>Username:</label>
       <input type="text"></input>
     </div>
   )
@@ -66,7 +66,7 @@ function Password()
 {
   return (
     <div>
-      <label>Password</label>
+      <label>Password: </label>
       <input type="texts"></input>
     </div>
   )
